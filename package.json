@@ -15,7 +15,7 @@
     "setup": "npm install && npm run validate -s"
   },
   "engines": {
-    "node": ">10.18"
+    "node": ">=12"
   },
   "files": [
     "types/*.d.ts",
@@ -44,7 +44,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.12.5",
-    "@testing-library/dom": "^7.26.6",
+    "@testing-library/dom": "^8.20.0",
     "@vue/test-utils": "^1.1.0"
   },
   "devDependencies": {
